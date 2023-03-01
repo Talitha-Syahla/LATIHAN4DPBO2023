@@ -3,7 +3,7 @@ Saya Talitha Syahla NIM 2101330 mengerjakan
 Soal Latihan 4 dalam mata kuliah Desain Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan 
 kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
-# TUGAS LATIHAN 2 DPBO 2023
+# TUGAS LATIHAN 4 DPBO 2023
 Buatlah program berbasis OOP menggunakan bahasa pemrograman C++ dan Python  yang mengimplementasikan konsep inheritance, composition, dan array of object pada kelas-kelas tersebut:
 
     Mahasiswa: NIM, nama, jenis_kelamin, fakultas
@@ -56,7 +56,8 @@ Class Dosen ini mewarisi Class SivitasAkademik yang berarti Class ini menjadi Ch
 
 Keenam Class di atas memiliki setter dan getternya masing-masing.
 
-UML Program
+### UML Program
+
 ![UML program](/UML.png)
 
 # Alur Program
