@@ -22,6 +22,7 @@ Design pada program disini menggunakan 6 Class, yaitu:
     - NIK berupa `string`
     - Nama berupa `string`
     - Gender berupa `string`
+
 Class Human ini menjadi Parent Class untuk Class SivitasAkademik. Hal ini dikarenakan semua atribut yang ada pada SivitasAkademik termasuk ke dalam Human, karena SivitasAkademik merupakan turunan atau subclass dari Human. Misalnya, anggota SivitasAkademik seperti Dosen dan Mahasiswa memiliki atribut yang umum dengan Human. Maka dari itu Human menjadi parent class yang dapat diwarisi oleh SivitasAkademik.
 
 2) Class SivitasAkademik, Class ini memiliki atribut:
@@ -32,6 +33,7 @@ Class ini menjadi Child Class dari Class Human. Hal ini dikarenakan SivitasAkade
 3) Class Mahasiswa, Class ini memiliki atribut:
     - NIM berupa `string`
     - Fakultas berupa `string`
+
 Class Mahasiswa ini mewarisi Class SivitasAkademik yang berarti Class ini menjadi Child Class dari Class SivitasAkademik. Hal ini dikarenakan SivitasAkademik merupakan kelompok manusia/human yang memiliki kegiatan di akademik, dan Mahasiswa adalah anggota dari kelompok tersebut.
 
 4) Class Dosen, Class ini memiliki atribut:
@@ -39,6 +41,7 @@ Class Mahasiswa ini mewarisi Class SivitasAkademik yang berarti Class ini menjad
     - Fakultas berupa `string`
     - Pend_terakhir berupa `string`
     - Keahlian berupa `string`
+
 Class Dosen ini mewarisi Class SivitasAkademik yang berarti Class ini menjadi Child Class dari Class SivitasAkademik. Hal ini dikarenakan SivitasAkademik merupakan kelompok manusia/human yang memiliki kegiatan di akademik, dan Dosen adalah anggota dari kelompok tersebut.
 
 5) Class ProgramStudi, Class ini memiliki atribut:
@@ -53,6 +56,7 @@ Class Dosen ini mewarisi Class SivitasAkademik yang berarti Class ini menjadi Ch
 
 Keenam Class di atas memiliki setter dan getternya masing-masing.
 
+UML Program
 ![UML program](/UML.png)
 
 # Alur Program
