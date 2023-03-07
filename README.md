@@ -22,16 +22,19 @@ Design pada program disini menggunakan 6 Class, yaitu:
     - NIK berupa `string`
     - Nama berupa `string`
     - Gender berupa `string`
+
 Class Human ini menjadi Parent Class untuk Class SivitasAkademik. Hal ini dikarenakan semua atribut yang ada pada SivitasAkademik termasuk ke dalam Human, karena SivitasAkademik merupakan turunan atau subclass dari Human. Misalnya, anggota SivitasAkademik seperti Dosen dan Mahasiswa memiliki atribut yang umum dengan Human. Maka dari itu Human menjadi parent class yang dapat diwarisi oleh SivitasAkademik.
 
 2) Class SivitasAkademik, Class ini memiliki atribut:
     - Asal_Universitas berupa `string`
     - Email berupa `string`
+
 Class ini menjadi Child Class dari Class Human. Hal ini dikarenakan SivitasAkademik merupakan sekelompok manusia/human yang memiliki kegiatan di akademik. Class SivitasAkademik ini juga merupakan Parent Class untuk Class Mahasiswa dan class Dosen. 
 
 3) Class Mahasiswa, Class ini memiliki atribut:
     - NIM berupa `string`
     - Fakultas berupa `string`
+
 Class Mahasiswa ini mewarisi Class SivitasAkademik yang berarti Class ini menjadi Child Class dari Class SivitasAkademik. Hal ini dikarenakan SivitasAkademik merupakan kelompok manusia/human yang memiliki kegiatan di akademik, dan Mahasiswa adalah anggota dari kelompok tersebut.
 
 4) Class Dosen, Class ini memiliki atribut:
@@ -39,6 +42,7 @@ Class Mahasiswa ini mewarisi Class SivitasAkademik yang berarti Class ini menjad
     - Fakultas berupa `string`
     - Pend_terakhir berupa `string`
     - Keahlian berupa `string`
+
 Class Dosen ini mewarisi Class SivitasAkademik yang berarti Class ini menjadi Child Class dari Class SivitasAkademik. Hal ini dikarenakan SivitasAkademik merupakan kelompok manusia/human yang memiliki kegiatan di akademik, dan Dosen adalah anggota dari kelompok tersebut.
 
 5) Class ProgramStudi, Class ini memiliki atribut:
@@ -47,10 +51,12 @@ Class Dosen ini mewarisi Class SivitasAkademik yang berarti Class ini menjadi Ch
     - dosen berbentuk list / vector
     - mahasiswa berbentuk list / vector
     - course berbentuk list / vector
+
 Class ini mengcomposite beberapa class yaitu Class Dosen, Class Mahasiswa, dan Class Course. Karena di ProgramStudi pasti memiliki data mengenai dosen, mahasiswa, dan course. Jadi itu merupakan alasan mengapa class ini mengcomposite Class Dosen, Class Mahasiswa, dan Class Course.
 
 6) Class Course, Class ini memiliki atribut:
     - nama_matakuliah berupa `string`
+
 Class ini merupakan class composite dari class ProgramStudi. Class ini hanya memiliki satu atribut di dalamnya.
 
 Keenam Class di atas memiliki setter dan getternya masing-masing.
@@ -68,6 +74,6 @@ Pada program ini, inputannya dilakukan secara hardcode jadi user tidak perlu mem
 
 ### C++
 
-![C++ program](c++/pic1.png)
-![C++ program](c++/pic2.png)
-![C++ program](c++/pic3.png)
+![Cpp program](cpp/pic1.png)
+![Cpp program](cpp/pic2.png)
+![Cpp program](cpp/pic3.png)
