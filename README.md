@@ -48,9 +48,9 @@ Class Dosen ini mewarisi Class SivitasAkademik yang berarti Class ini menjadi Ch
 5) Class ProgramStudi, Class ini memiliki atribut:
     - nama_prodi berupa `string`
     - Kode berupa `string`
-    - dosen berbentuk list / vector
-    - mahasiswa berbentuk list / vector
-    - course berbentuk list / vector
+    - dosen berbentuk `list / vector`
+    - mahasiswa berbentuk `list / vector`
+    - course berbentuk `list / vector`
 
 Class ini mengcomposite beberapa class yaitu Class Dosen, Class Mahasiswa, dan Class Course. Karena di ProgramStudi pasti memiliki data mengenai dosen, mahasiswa, dan course. Jadi itu merupakan alasan mengapa class ini mengcomposite Class Dosen, Class Mahasiswa, dan Class Course.
 
@@ -61,6 +61,7 @@ Class ini merupakan class composite dari class ProgramStudi. Class ini hanya mem
 
 Keenam Class di atas memiliki setter dan getternya masing-masing.
 
+## UML Program
 ![UML program](/UML.png)
 
 # Alur Program
